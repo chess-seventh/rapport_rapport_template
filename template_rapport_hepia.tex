@@ -1,0 +1,181 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+%\documentclass{}
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{listings}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{xcolor}
+\usepackage{ifthen}
+
+\geometry{a4paper, top=2.5cm, left=1.0cm, right=1.0cm, bottom=2.0cm, headsep=12ex}
+
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{purple},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=2
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+
+\pagestyle{fancy}
+%\fancyhf{}
+\fancyhead[L]{\includegraphics[scale=.45]{img/hepia.png}}
+
+\renewcommand{\thispagestyle}[1]{} % do nothing
+
+\title{\textbf{Project Name}{ \\ Class Name \\ TP Number}} % Title
+
+\author{\textsc{Name} Surname} 
+
+\date{\today} % Date for the report
+
+\begin{document}
+\maketitle % Insert the title, author and date
+\begin{center}
+
+\end{center}
+
+\newpage 
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+{\vspace*{.5cm}} \section{Uno}
+
+\subsection{Uno Piccolo}
+
+%----------------------------------------------------------------------------------------
+%	CODE STATUS
+%----------------------------------------------------------------------------------------
+
+{\vspace*{1cm}} \section{Due}
+
+\subsection{Due Piccolo}
+
+%
+%\colorbox{lightgray}{\lstinline[basicstyle=\small\ttfamily\color{white}]| uin32_t two = 2;|}
+%\\
+Code snipet below : 
+\\
+{
+\begin{lstlisting}
+// task_ghost.c
+// reactivate ghost when space is free
+if (mustRespawn || (rnd_32() % 100) == 0) {
+  if (test_collision(ghostId, object, 1, GHOST_NB) == NO_COLLISION) {
+    object[ghostId].active = true;
+    i = 0;
+    mustRespawn = false;
+  } else {
+	mustRespawn = true;
+  }
+}
+
+\end{lstlisting}
+}
+
+\subsection{Due Piccolissimo}
+{}
+
+%{\colorbox{lightgray}{\lstinline[basicstyle=\small\ttfamily\color{white}]|if ((LPC_GPIO1->FIOPIN & JOYdirection) == 0)|} }
+
+
+{ }
+
+
+%----------------------------------------------------------------------------------------
+%	TRACES
+%----------------------------------------------------------------------------------------
+  
+{\vspace*{1cm}} \section{Tre}
+
+\subsection{Tre Piccolo}
+%
+%\begin{itemize}
+%\item \texttt{dur[1]} duration in \(\mu \)s
+%\end{itemize}
+%
+%\begin{figure}[hbtp]
+%\caption{traces}
+%\includegraphics[scale=.2]{img/hepia}
+%\end{figure}
+
+
+
+\subsection{Tre Piccollissimo}
+
+{ }
+
+
+
+%----------------------------------------------------------------------------------------
+%	ANOMALIES
+%----------------------------------------------------------------------------------------
+ 
+{\vspace*{1cm}} \section{Quattro}
+
+{ }
+
+\subsection{Quattro Piccolo}
+
+{ }
+
+ 
+
+%----------------------------------------------------------------------------------------
+%	EXPERIMENTAL
+%----------------------------------------------------------------------------------------
+  
+{\vspace*{.5cm}} 
+\section{Cinque}
+
+\subsection{Cinque Piccolo}
+
+{ }
+
+%
+%%----------------------------------------------------------------------------------------
+%%	BIBLIOGRAPHY
+%%----------------------------------------------------------------------------------------
+%
+\bibliographystyle{apalike}
+%
+\bibliography{sample}
+%
+%%----------------------------------------------------------------------------------------
+
+
+\end{document}
