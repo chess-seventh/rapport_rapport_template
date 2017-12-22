@@ -2,7 +2,6 @@
 %	PACKAGES AND DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-%\documentclass{}
 \documentclass{article}
 
 \usepackage[version=3]{mhchem} % Package for chemical equation typesetting
@@ -11,6 +10,11 @@
 \usepackage{natbib} % Required to change bibliography style to APA
 \usepackage{amsmath} % Required for some math elements 
 \usepackage{listings}
+\usepackage{titling} % this is for the Abstract (mainly)
+\usepackage{biblatex}  % this is for the bibliographt >>   https://www.sharelatex.com/learn/Bibliography_management_with_bibtex
+\addbibresource{sample.bib}
+
+
 
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
@@ -42,23 +46,19 @@
   tabsize=2
 }
 
-
-
 %----------------------------------------------------------------------------------------
 %	DOCUMENT INFORMATION
 %----------------------------------------------------------------------------------------
 
-
-
 \pagestyle{fancy}
-%\fancyhf{}
+
 \fancyhead[L]{\includegraphics[scale=.45]{img/hepia.png}}
 
 \renewcommand{\thispagestyle}[1]{} % do nothing
 
-\title{\textbf{Project Name}{ \\ Class Name \\ TP Number}} % Title
+\title{\textbf{Glasgow 2018 - Proof of Concept \\ ``Live data stream, semantic databases and reactive front-end."}{ \\ Semester 2017.2 Project }} % Title
 
-\author{\textsc{Name} Surname} 
+\author{\textsc{Piva} Francesco} 
 
 \date{\today} % Date for the report
 
@@ -68,22 +68,42 @@
 
 \end{center}
 
+\begin{abstract}
+{ In today's world a huge amount of data is produced. As a matter of fact, one of the most tangible use of data can be seen during any sport event or competition. With the modern tool we have, during a international sports event, a lot of data is produced as well. Modern companies are aware that the future of data is the way it gets handled, linked and then shown to the public. Providing a comprehensive \texttt{Linked Data} set by using technologies such as semantic databases, asynchronous functionality and reactive front ends are some of the aspects we will analyze during this project. This initial paper will show all the technologies currently used, under evaluation to accomplish in implementing a way to produce a modern, dynamic and live front end tool for sports journalists. The semantic database being in the center of the project we will try to provide a visual tool that updates itself when live data is inserted. }
+\end{abstract}
+
 \newpage 
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 
-{\vspace*{.5cm}} \section{Uno}
+{\vspace*{.5cm}} \section{Context}
 
-\subsection{Uno Piccolo}
+{EBU, European Broadcast Union is the leader in .}
+
+
+\subsection{Data Stream}
+
+{Who will feed us data.}
+
+
+\subsection{Project Technologies}
+
+{Where and what we use currently}
+
+\subsection{UML Diagram}
+
+{How the project is currently made of..}
+
+
 
 %----------------------------------------------------------------------------------------
 %	CODE STATUS
 %----------------------------------------------------------------------------------------
 
-{\vspace*{1cm}} \section{Due}
+{\vspace*{1cm}} \section{Tasks to accomplis}
 
-\subsection{Due Piccolo}
+\subsection{Python Async}
 
 %
 %\colorbox{lightgray}{\lstinline[basicstyle=\small\ttfamily\color{white}]| uin32_t two = 2;|}
@@ -107,18 +127,17 @@ if (mustRespawn || (rnd_32() % 100) == 0) {
 \end{lstlisting}
 }
 
-\subsection{Due Piccolissimo}
-{}
+\subsection{Java/Scala Websocket}
+
+{balb}
 
 %{\colorbox{lightgray}{\lstinline[basicstyle=\small\ttfamily\color{white}]|if ((LPC_GPIO1->FIOPIN & JOYdirection) == 0)|} }
 
 
-{ }
+\subsection{Angular4 front end}
 
+{blab}
 
-%----------------------------------------------------------------------------------------
-%	TRACES
-%----------------------------------------------------------------------------------------
   
 {\vspace*{1cm}} \section{Tre}
 
@@ -139,11 +158,6 @@ if (mustRespawn || (rnd_32() % 100) == 0) {
 
 { }
 
-
-
-%----------------------------------------------------------------------------------------
-%	ANOMALIES
-%----------------------------------------------------------------------------------------
  
 {\vspace*{1cm}} \section{Quattro}
 
@@ -153,12 +167,7 @@ if (mustRespawn || (rnd_32() % 100) == 0) {
 
 { }
 
- 
 
-%----------------------------------------------------------------------------------------
-%	EXPERIMENTAL
-%----------------------------------------------------------------------------------------
-  
 {\vspace*{.5cm}} 
 \section{Cinque}
 
@@ -174,6 +183,10 @@ if (mustRespawn || (rnd_32() % 100) == 0) {
 \bibliographystyle{apalike}
 %
 \bibliography{sample}
+
+
+\printbibliography
+
 %
 %%----------------------------------------------------------------------------------------
 
