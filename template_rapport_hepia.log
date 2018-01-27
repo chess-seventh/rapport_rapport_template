@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.8.2)  22 SEP 2017 12:04
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.11.25)  27 JAN 2018 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **template_rapport_hepia.tex
 (./template_rapport_hepia.tex
 LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -27,10 +27,10 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 Package: mhchem 2017/07/24 v4.07 for typesetting chemical formulae
 
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/07/19 L3 programming layer (loader) 
+Package: expl3 2017/11/14 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/07/19 L3 programming layer (code)
+Package: expl3 2017/11/14 L3 programming layer (code)
 \c_max_int=\count87
 \l_tmpa_int=\count88
 \l_tmpb_int=\count89
@@ -174,7 +174,7 @@ File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
 \l__driver_tmp_box=\box41
 ))
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2017/07/19 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2017/11/14 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -190,7 +190,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip51
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
@@ -249,7 +249,7 @@ LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2017/07/19 L3 Experimental document command parser
+Package: xparse 2017/11/14 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count181
 \g__xparse_grabber_int=\count182
 \l__xparse_m_args_int=\count183
@@ -343,7 +343,7 @@ File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 \mhchem@option@minustextsidebearingright=\dimen148
 )
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2017/07/23 v2.7i A comprehensive (SI) units package
+Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
@@ -561,12 +561,321 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip74
 \droptitle=\skip75
 )
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/11/05 v3.8 programmable bibliographies (PK/JW/AB)
 
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count282
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count283
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count284
+\decimalpart=\count285
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count286
+\c@listtotal=\count287
+\c@listcount=\count288
+\c@liststart=\count289
+\c@liststop=\count290
+\c@citecount=\count291
+\c@citetotal=\count292
+\c@multicitecount=\count293
+\c@multicitetotal=\count294
+\c@instcount=\count295
+\c@maxnames=\count296
+\c@minnames=\count297
+\c@maxitems=\count298
+\c@minitems=\count299
+\c@citecounter=\count300
+\c@savedcitecounter=\count301
+\c@uniquelist=\count302
+\c@uniquename=\count303
+\c@refsection=\count304
+\c@refsegment=\count305
+\c@maxextratitle=\count306
+\c@maxextratitleyear=\count307
+\c@maxextradate=\count308
+\c@maxextraalpha=\count309
+\c@abbrvpenalty=\count310
+\c@highnamepenalty=\count311
+\c@lownamepenalty=\count312
+\c@maxparens=\count313
+\c@parenlevel=\count314
+\blx@tempcnta=\count315
+\blx@tempcntb=\count316
+\blx@tempcntc=\count317
+\blx@maxsection=\count318
+\blx@maxsegment@0=\count319
+\blx@notetype=\count320
+\blx@parenlevel@text=\count321
+\blx@parenlevel@foot=\count322
+\blx@sectionciteorder@0=\count323
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+
+
+! LaTeX Error: Command \bibhang already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.513 \newlength{\bibhang}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count324
+\c@maxcomprange=\count325
+\c@mincompwidth=\count326
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count327
+\c@savedafterword=\count328
+\c@annotator=\count329
+\c@savedannotator=\count330
+\c@author=\count331
+\c@savedauthor=\count332
+\c@bookauthor=\count333
+\c@savedbookauthor=\count334
+\c@commentator=\count335
+\c@savedcommentator=\count336
+\c@editor=\count337
+\c@savededitor=\count338
+\c@editora=\count339
+\c@savededitora=\count340
+\c@editorb=\count341
+\c@savededitorb=\count342
+\c@editorc=\count343
+\c@savededitorc=\count344
+\c@foreword=\count345
+\c@savedforeword=\count346
+\c@holder=\count347
+\c@savedholder=\count348
+\c@introduction=\count349
+\c@savedintroduction=\count350
+\c@namea=\count351
+\c@savednamea=\count352
+\c@nameb=\count353
+\c@savednameb=\count354
+\c@namec=\count355
+\c@savednamec=\count356
+\c@translator=\count357
+\c@savedtranslator=\count358
+\c@shortauthor=\count359
+\c@savedshortauthor=\count360
+\c@shorteditor=\count361
+\c@savedshorteditor=\count362
+\c@labelname=\count363
+\c@savedlabelname=\count364
+\c@institution=\count365
+\c@savedinstitution=\count366
+\c@lista=\count367
+\c@savedlista=\count368
+\c@listb=\count369
+\c@savedlistb=\count370
+\c@listc=\count371
+\c@savedlistc=\count372
+\c@listd=\count373
+\c@savedlistd=\count374
+\c@liste=\count375
+\c@savedliste=\count376
+\c@listf=\count377
+\c@savedlistf=\count378
+\c@location=\count379
+\c@savedlocation=\count380
+\c@organization=\count381
+\c@savedorganization=\count382
+\c@origlocation=\count383
+\c@savedoriglocation=\count384
+\c@origpublisher=\count385
+\c@savedorigpublisher=\count386
+\c@publisher=\count387
+\c@savedpublisher=\count388
+\c@language=\count389
+\c@savedlanguage=\count390
+\c@origlanguage=\count391
+\c@savedoriglanguage=\count392
+\c@pageref=\count393
+\c@savedpageref=\count394
+\shorthandwidth=\skip83
+\shortjournalwidth=\skip84
+\shortserieswidth=\skip85
+\shorttitlewidth=\skip86
+\shortauthorwidth=\skip87
+\shorteditorwidth=\skip88
+
+
+! LaTeX Error: Command \citename already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10055 ...*{\citename}{\blx@citexpunct{citename}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2017/11/05 v3.8 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2017/11/05 v3.8 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count395
+\c@textcitetotal=\count396
+\c@textcitemaxnames=\count397
+\c@biburlnumpenalty=\count398
+\c@biburlucpenalty=\count399
+\c@biburllcpenalty=\count400
+
+
+! LaTeX Error: Command \bibfont already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ...ommand*{\bibfont}{\normalfont\normalsize}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@smartand=\count401
+
+Package biblatex Warning: Redefining '\citeauthor'.
+
+
+Package biblatex Warning: Redefining '\citeyear'.
+
+
+! LaTeX Error: Command \Citeauthor already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2168 ...e\citeauthor*}{\bibsentence\citeauthor}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2017/11/05 v3.8 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2017/11/05 v3.8 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count402
+\c@bbx:relatedtotal=\count403
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2017/11/05 v3.8 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -574,9 +883,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count282
-\Gm@cntv=\count283
-\c@Gm@tempcnt=\count284
+\Gm@cnth=\count404
+\Gm@cntv=\count405
+\c@Gm@tempcnt=\count406
 \Gm@bindingoffset=\dimen169
 \Gm@wd@mp=\dimen170
 \Gm@odd@mp=\dimen171
@@ -590,15 +899,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip76
-\f@nch@O@elh=\skip77
-\f@nch@O@erh=\skip78
-\f@nch@O@olh=\skip79
-\f@nch@O@orh=\skip80
-\f@nch@O@elf=\skip81
-\f@nch@O@erf=\skip82
-\f@nch@O@olf=\skip83
-\f@nch@O@orf=\skip84
+\f@nch@headwidth=\skip89
+\f@nch@O@elh=\skip90
+\f@nch@O@erh=\skip91
+\f@nch@O@olh=\skip92
+\f@nch@O@orh=\skip93
+\f@nch@O@elf=\skip94
+\f@nch@O@erf=\skip95
+\f@nch@O@olf=\skip96
+\f@nch@O@orf=\skip97
 )
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -616,36 +925,52 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
+
+! Package biblatex Error: Incompatible package 'natbib'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \begin{document}
+                     
+The 'natbib' package and biblatex are incompatible.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2017/11/05 v3.8 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count407
+\@quotereset=\count408
+
 (./template_rapport_hepia.aux)
 \openout1 = `template_rapport_hepia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 61.
+. Activating mapping `default' on line 65.
 .................................................
 
 (/usr/share/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dicti
@@ -653,10 +978,21 @@ onary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/07/23 v2.7i siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
-\c@lstlisting=\count285
+\c@lstlisting=\count409
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `template_rapport_hepia.bcf'.
 
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'template_rapport_hepia.bbl' not found.
+
+No file template_rapport_hepia.bbl.
+Package biblatex Info: Reference section=0 on input line 65.
+Package biblatex Info: Reference segment=0 on input line 65.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -691,8 +1027,8 @@ File: siunitx-abbreviations.cfg 2017/07/23 v2.7i siunitx: Abbreviated units
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c__siunitx_mathsf_int=\count286
-\c__siunitx_mathtt_int=\count287
+\c__siunitx_mathsf_int=\count410
+\c__siunitx_mathtt_int=\count411
 File: img/hepia.png Graphic file (type bmp)
 <img/hepia.png>
 
@@ -709,11 +1045,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 95--98
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-No file template_rapport_hepia.bbl.
+
+! Package biblatex Error: '\bibliographystyle' invalid.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 \bibliographystyle{apalike}
+                                 
+Use the package option 'style' instead.
+I'm ignoring this command.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \bibliography
+                   {sample}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Empty bibliography on input line 188.
+
 File: img/hepia.png Graphic file (type bmp)
 <img/hepia.png>
 
@@ -727,14 +1090,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./template_rapport_hepia.aux) ) 
+[2]
+File: img/hepia.png Graphic file (type bmp)
+<img/hepia.png>
+
+Overfull \hbox (134.07736pt too wide) has occurred while \output is active
+[][]|  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 40.18181pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] (./template_rapport_hepia.aux)
+Package logreq Info: Writing requests to 'template_rapport_hepia.run.xml'.
+\openout1 = `template_rapport_hepia.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15211 strings out of 492998
- 304194 string characters out of 6139962
- 387326 words of memory out of 5000000
- 19092 multiletter control sequences out of 15000+600000
+ 21939 strings out of 493010
+ 426944 string characters out of 6140133
+ 853325 words of memory out of 5000000
+ 25732 multiletter control sequences out of 15000+600000
  537053 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 34i,13n,49p,10450b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,49p,10450b,3426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template_rapport_hepia.pdf (2 pages).
+Output written on template_rapport_hepia.pdf (3 pages).
